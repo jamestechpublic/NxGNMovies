@@ -13,7 +13,7 @@ Angular Material
 Project Files
 -------------
 Readme.txt (this file)
-MoviesUI.zip (front-end)
+MoviesUIsrc.zip (front-end only the src folder)
 MoviesAPI.zip (back-end)
 MoviesDB.bak (backup database file)
 Movies.mp4 (demo clip of project)
@@ -24,9 +24,15 @@ The Database Fille:
 1. Please retore the MoviesDB.bak to your local SQL Server.
 2. Ensure the connection string in appsettings.json file in the WebApi (back-end) point to your restored database
 
-Run the WebApi from Visual Studio 2022
+Back-end:
+	Get project folder in MoviesAPI.zip
+	Run the WebApi from Visual Studio 2022
 
-Run the Angular Front from Visual Studio Code
+Front-end: 
+	Create MoviesUI angular project
+	The src folder is in MoviesUIsrc.zip
+	install additional packages
+	Run from visual studio (for example)
 
 NOTES & POSSIBLE IMPROVEMENTS
 -----------------------------
